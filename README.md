@@ -5,6 +5,14 @@
 
 ---
 
+![shelter](https://github.com/Tanyaa-a/Shelter/assets/120506794/78685eb7-e9f1-4003-a113-58f73ac9120d)
+
+---
+
+## Demo Link 🔗
+[Click here to view the live demo of "Shelter for Pets"](your-demo-link-here)
+
+---
 ## Features 🌟
 
 ### 1. Responsive Design
@@ -37,15 +45,4 @@
 
 ---
 
-## Screenshots 📸
 
-
-![shelter](https://github.com/Tanyaa-a/jubilant-potato/assets/120506794/d239cab0-478a-4c38-b0b9-24a81671deed)
-
-
----
-
-## Demo Link 🔗
-[Click here to view the live demo of "Shelter for Pets"](your-demo-link-here)
-
----
