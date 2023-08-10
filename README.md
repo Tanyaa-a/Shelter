@@ -38,7 +38,9 @@
 ---
 
 ## Screenshots 📸
-* *![shelter](https://github.com/Tanyaa-a/jubilant-potato/assets/120506794/a651eeda-187b-4e70-a02e-771c8a09b59d)
+
+
+![shelter](https://github.com/Tanyaa-a/jubilant-potato/assets/120506794/d239cab0-478a-4c38-b0b9-24a81671deed)
 
 
 ---
