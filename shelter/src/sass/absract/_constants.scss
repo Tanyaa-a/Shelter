@@ -1,0 +1,97 @@
+$color-primary: #F1CDB3;
+$color-primary-light: #FDDCC4;
+
+$color-light: #FFFFFF;
+$color-light-light: #F6F6F6;
+$color-dark-light: #CDCDCD;
+$color-dark-h: #545454;
+/* color-dark-xl */
+$color-card-back:#FAFAFA;
+$color-dark-p: #4C4C4C;
+$color-dark-m:#B2B2B2;
+$color-dark-button-text: #292929;
+
+
+$content-width: 1200px;
+$tablet-width: 768px;
+$mobile-big-width: 414px;
+$mobile-small-width: 320px;
+
+h1 {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 110%;
+letter-spacing: 0.06em;
+color: $color-primary;
+margin: 0;
+-webkit-text-stroke: .5px black;
+-webkit-text-stroke-offset: -1px;
+   
+
+}
+
+h2 {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 130%;
+color: $color-light;
+@media (max-width: 681px) {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32.5px;
+    letter-spacing: 0.06em;
+
+}
+
+}
+
+h3 {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: $color-dark-h;
+@media (max-width: 650px) {
+
+    font-size: 25px;
+    line-height: 32.5px;
+
+}
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    @media (max-width: 650px) {
+    
+        font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 115%;
+letter-spacing: 6%;
+
+
+}
+}
+
+h5 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    color: black;
+
+}

@@ -1,0 +1,20 @@
+{
+  "name": "shelter",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "style": "sass --watch ./src/sass/style.scss ./src/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "norma": "^2.0.2",
+    "normalize-scss": "^7.0.1",
+    "sass": "^1.60.0"
+  }
+}
