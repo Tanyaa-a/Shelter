@@ -1,0 +1,77 @@
+.header__link:hover {
+    color: $color-light;
+    transition: color .5s ease ;
+}
+
+.button-hover:hover {
+    background-color: $color-primary-light;
+    cursor: pointer;
+    border-radius: 100px;
+    border-color: $color-primary-light;
+    transition: background-color .5s ease;
+}
+
+.arrow__right:hover {
+    background-color: $color-primary-light;
+    border-color: $color-primary-light;
+    transition: background-color .5s ease;
+
+}
+.arrow__left:hover {
+    background-color: $color-primary-light;
+    border-color: $color-primary-light;
+    transition: background-color .5s ease;
+
+}
+
+.pag__hover:hover {
+    background-color: $color-primary-light;
+    cursor: pointer;
+    border-radius: 100px;
+    border-color: $color-primary-light;
+    transition: background-color .5s ease;
+
+}
+
+#b:hover {
+   
+    background-color: $color-primary-light !important;
+    cursor: pointer;
+    border-radius: 100px;
+    border-color: $color-primary-light;
+    transition: background-color .5s ease;
+
+}
+
+#but__only:hover {
+    background-color: $color-primary-light !important;
+    cursor: pointer;
+    border-radius: 100px;
+    border-color: $color-primary-light;
+    transition: background-color .5s ease;
+
+}
+
+.header-pets__link:hover {
+    text-shadow: 4px 0 4px rgba(0,0,0,0.25);
+}
+
+.header-pets__link:active {
+    border-bottom: 3px solid $color-primary;
+ color: $color-light;
+
+}
+
+.header__link:active {
+    border-bottom: 3px solid $color-primary;
+ color: $color-light;
+
+}
+.address__text:hover {
+    color: $color-light;
+}
+
+
+.card:hover {
+  cursor: pointer;
+}

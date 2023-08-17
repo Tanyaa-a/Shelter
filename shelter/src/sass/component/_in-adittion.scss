@@ -1,0 +1,142 @@
+.in-addition__wrapper {
+  @media (max-width: 1064px) {
+    padding: 0;
+  }
+}
+
+.in-addition {
+  background-color: $color-light-light;
+}
+.in-addition__title {
+  @media (max-width: 600px) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.in-addition__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 143px 100px 143px;
+  gap: 30px;
+  @media (max-width: 1064px) {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 0;
+    padding: 0 0 0 0;
+  }
+}
+.in-addition__content {
+  @media (max-width: 1064px) {
+    padding: 80px 194px 60px 194px;
+  }
+  @media (max-width: 717px) {
+    
+    padding: 42px 20px 42px 20px;
+    
+
+    justify-content: center;
+    margin: 0 auto;
+  }
+  @media (max-width: 420px) {
+    padding: 42px 19px 42px 19px;
+  }
+}
+.in-addition__text {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: $color-dark-h;
+  padding: 20px 0 20px 0;
+  @media (max-width: 600px) {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    padding-left: 2px;
+    align-content: center;
+    justify-content: center;
+    padding: 22px 0 22px 0;
+  }
+}
+
+.text-note {
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  color: $color-dark-m;
+  @media (max-width: 600px) {
+    text-align: justify;
+  }
+}
+
+.in-adittion__photo {
+  padding-top: 11px;
+  @media (max-width: 1064px) {
+    padding: 0 132px 97px 133px;
+    @media (max-width: 600px) {
+      padding: 0 0 42px 0;
+      margin: 0 auto;
+    }
+  }
+}
+.in-adittion__photo img {
+  @media (max-width: 660px) {
+    width: 260px;
+    height: 135.2px;
+  }
+}
+
+.in-addition__card {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: $color-dark-h;
+  width: 290px;
+  padding-right: 0;
+  @media (max-width: 717px) {
+    margin: 0 auto;
+
+    font-size: 15px;
+    line-height: 110%;
+    padding-left: 15px;
+    width: 100%;
+    max-width: 281px;
+  }
+}
+
+.card__box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: $color-primary;
+  border-radius: 9px;
+  padding: 10px 0 10px 10px;
+  max-width: 339px;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @media (max-width: 717px) {
+    width: 281px;
+    width: 100%;
+    padding: 10px 1px 10px 10px;
+    margin-right: 3px;
+
+  }
+}

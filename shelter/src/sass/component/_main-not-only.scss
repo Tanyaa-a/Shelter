@@ -1,0 +1,124 @@
+.not-only__wrapper {
+  @media (max-width: 1020px) {
+    padding: 60px 99px 0 100px;
+  }
+  @media (max-width: 600px) {
+    padding: 60px 10px 0 10px;
+  }
+}
+
+.not-only {
+  margin-top: 0;
+}
+
+.not-only__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 90px;
+  @media (max-width: 1020px) {
+    flex-direction: column;
+    padding: 0;
+    margin-top: 0;
+  }
+}
+
+.not-only__about {
+  color: $color-dark-light;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  padding: 42px 30px 42px 0;
+  /* or 24px */
+}
+.not-only__text {
+  margin-top: -90px;
+  @media (max-width: 1020px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 0;
+    @media (max-width: 600px) {
+    }
+  }
+}
+.not-only__text h2 {
+  @media (max-width: 1020px) {
+    padding: 0 120px 42px 54px;
+  }
+  @media (max-width: 600px) {
+    display: flex;
+    padding: 0 10px 0 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+.not-only__about {
+  @media (max-width: 1020px) {
+    padding: 0 54px 0 54px;
+  }
+  @media (max-width: 600px) {
+    padding: 42px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+.not-only__image {
+  line-height: 0;
+}
+
+.not-only__image img {
+  @media (max-width: 1020px) {
+    display: flex;
+    align-content: flex-end;
+    width: 569;
+    height: 593px;
+    justify-content: right;
+    
+    margin-right: -150px;
+  }
+  @media (max-width: 730px) {
+    width: 260px;
+    height: 271.77px;
+    margin-right: -50px;
+    padding-top: 10px;
+  }
+}
+.not-only__button {
+  display: flex;
+  align-content: center;
+  background-color: $color-primary;
+  border-radius: 100px;
+  width: 206px;
+  @media (max-width: 1020px) {
+    justify-content: center;
+    margin-bottom: 94px;
+  }
+}
+.button__wrapper {
+  @media (max-width: 1020px) {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 42px;
+  }
+}
+.only-button {
+  display: flex;
+  align-items: center;
+  color: $color-dark-button-text;
+  padding: 15px 42px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  /* identical to box height, or 22px */
+
+  letter-spacing: 0.06em;
+}
