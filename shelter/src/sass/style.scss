@@ -1,0 +1,23 @@
+
+@import "../../node_modules/normalize-scss/sass/normalize";
+@include normalize();
+@import  "./absract/constants";
+
+// //Base
+@import "./base/base";
+@import "./base/buttons";
+
+//Layouts
+@import  "./layouts/wrapper";
+@import "./layouts/header";
+@import "./layouts/footer";
+@import "./layouts/header-pets";
+
+// //Component
+
+@import "./component/about";
+@import "./component/in-adittion";
+@import "./component/main-not-only";
+@import "./component/our-friends";
+@import "./component/pets-pets-cards";
+@import "./component/help"
