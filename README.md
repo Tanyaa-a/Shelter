@@ -10,7 +10,7 @@
 ---
 
 ## Demo Link 🔗
-[Click here to view the live demo of "Shelter for Pets"](your-demo-link-here)
+[Click here to view the live demo of "Shelter for Pets"](https://tanyaa-a.github.io/Shelter/shelter/src/pets.html)
 
 ---
 ## Features 🌟
