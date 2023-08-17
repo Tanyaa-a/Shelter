@@ -462,8 +462,14 @@ ul li::marker {
   margin-bottom: 30px;
   transition: all 0.5s ease;
   cursor: pointer;
+  background: #FAFAFA;
 }
-
+button.cards__button,
+button.card__button,
+.arrow__left,
+.arrow__right {
+  background: #FAFAFA;
+}
 .card:hover {
   background: #ffffff;
   cursor: pointer;

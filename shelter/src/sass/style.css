@@ -1882,6 +1882,14 @@ ul li::marker {
   margin-bottom: 30px;
   transition: all 0.5s ease;
   cursor: pointer;
+  background: #FAFAFA;
+}
+
+button.cards__button,
+button.card__button,
+.arrow__left,
+.arrow__right {
+  background: #FAFAFA;
 }
 
 .card:hover {
@@ -2670,6 +2678,17 @@ ul li::marker {
     margin-top: 40px;
   }
 }
+button.cards__button,
+button.card__button,
+.right_btn,
+.duble-right_btn,
+.left_btn,
+.duble-left_btn,
+.arrow__left,
+.arrow__right {
+  background: #FAFAFA;
+}
+
 @media (min-width: 768px) {
   .help__wrapper {
     padding: 0 69px 0 69px;
